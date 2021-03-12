@@ -5,26 +5,16 @@ import { Row, Col } from 'react-bootstrap';
 import 'aos/dist/aos.css';
 
 const Servicios = () => {
-    
-    useEffect(() =>{
-        Aos.init({
-            duration : 2000
-        })
-
-    })
 
     return ( 
         <div style={{
             textAlign: 'center', 
-            display: 'flex', 
-            justifyContent: 'center', 
-            alignItems: 'center',
-            width: '100vw',
+            display: 'flex',
             height: '100vh'
-        }} data-aos="fade-up">
+        }}>
             <Row>
                 <Col
-                    md={4}
+                    md={8}
                 >
                     <div className='bb-servicios'>
                         <h1>Paginas web</h1>
@@ -36,7 +26,7 @@ const Servicios = () => {
                     </div>
                 </Col>
                 <Col
-                    md={4}
+                    md={5}
                 >
                     <div className='bb-servicios'>
                         <h1>E-Commerce</h1>
@@ -49,7 +39,7 @@ const Servicios = () => {
                     </div>
                 </Col>
                 <Col
-                    md={4}
+                    md={3}
                 >
                     <div className='bb-servicios'>
                         <h1>Landing Page</h1>

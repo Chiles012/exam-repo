@@ -5,24 +5,14 @@ import 'aos/dist/aos.css';
 
 const Nosotros = () => {
 
-    useEffect(() =>{
-        Aos.init({
-            duration : 2000
-        })
-
-    })
-
     return ( 
         <div style={{
             textAlign: 'center', 
-            display: 'flex', 
-            justifyContent: 'center', 
-            alignItems: 'center',
-            width: '100vw',
+            display: 'flex',
             flexDirection: 'column',
             height: '100vh'
         }} data-aos="fade-up">
-            <div style={{ flexDirection: 'column' }}>
+            <div>
                 <h1>Nosotros</h1>
                 <p>Sapphire es una empresa de desarrorro de software.</p>
                 <div className='redes'>
