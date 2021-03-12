@@ -6,6 +6,11 @@ import 'aos/dist/aos.css';
 
 const Servicios = () => {
 
+    useEffect(() => {
+        Aos.init();
+
+    }, [])
+
     return ( 
         <div style={{
             textAlign: 'center', 

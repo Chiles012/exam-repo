@@ -5,12 +5,18 @@ import 'aos/dist/aos.css';
 
 const Nosotros = () => {
 
+    useEffect(() => {
+        Aos.init();
+
+    }, [])
+
     return ( 
         <div style={{
             textAlign: 'center', 
             display: 'flex',
             flexDirection: 'column',
-            height: '100vh'
+            height: '100vh',
+            justifyContent: 'center'
         }} data-aos="fade-up">
             <div>
                 <h1>Nosotros</h1>
