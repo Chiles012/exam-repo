@@ -8,9 +8,15 @@ const Header = () => {
             <img src={Logo} alt='logo'/>
             <div className='rigth'>
                 <ul>
+                    <a href="/">
                     <li className='selected'>Home</li>
+                    </a>
+                    <a href="/nosotros">
                     <li>Nosotros</li>
+                    </a>
+                    <a href="/servicios">
                     <li>Servicios</li>
+                    </a>
                 </ul>
             </div>
         </div>
